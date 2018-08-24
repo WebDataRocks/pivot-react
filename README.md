@@ -4,6 +4,7 @@ This repository holds sample integration project of WebDataRocks reporting tool 
 
 ## How to run the project
 
-```npm install
+```
+npm install
 npm start
 ```
