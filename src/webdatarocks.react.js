@@ -6,12 +6,10 @@ export class Pivot extends React.Component {
 		webdatarocks;
 
 		 propTypes: {
-                componentFolder: React.PropTypes.string,
                 global: React.PropTypes.object,
                 width: [React.PropTypes.string, React.PropTypes.number],
                 height: [React.PropTypes.string, React.PropTypes.number],
                 report: [React.PropTypes.string, React.PropTypes.object],
-                licenseKey: React.PropTypes.string,
                 toolbar: React.PropTypes.bool,
                 customizeCell: React.PropTypes.func,
                 cellclick: React.PropTypes.func,
@@ -26,12 +24,9 @@ export class Pivot extends React.Component {
                 fullscreen: React.PropTypes.func,
                 loadingdata: React.PropTypes.func,
                 loadinglocalization: React.PropTypes.func,
-                loadingolapstructure: React.PropTypes.func,
                 loadingreportfile: React.PropTypes.func,
                 localizationerror: React.PropTypes.func,
                 localizationloaded: React.PropTypes.func,
-                olapstructureerror: React.PropTypes.func,
-                olapstructureloaded: React.PropTypes.func,
                 openingreportfile: React.PropTypes.func,
                 querycomplete: React.PropTypes.func,
                 queryerror: React.PropTypes.func,
@@ -71,17 +66,11 @@ export class Pivot extends React.Component {
 			if (this.props.toolbar !== undefined) {
 				config.toolbar = this.props.toolbar;
 			}
-			if (this.props.licenseKey !== undefined) {
-				config.licenseKey = this.props.licenseKey;
-			}
 			if (this.props.width !== undefined) {
 				config.width = this.props.width;
 			}
 			if (this.props.height !== undefined) {
 				config.height = this.props.height;
-			}
-			if (this.props.componentFolder !== undefined) {
-				config.componentFolder = this.props.componentFolder;
 			}
 			if (this.props.report !== undefined) {
 				config.report = this.props.report;
@@ -129,9 +118,6 @@ export class Pivot extends React.Component {
 			if (this.props.loadinglocalization !== undefined) {
 				config.loadinglocalization = this.props.loadinglocalization;
 			}
-			if (this.props.loadingolapstructure !== undefined) {
-				config.loadingolapstructure = this.props.loadingolapstructure;
-			}
 			if (this.props.loadingreportfile !== undefined) {
 				config.loadingreportfile = this.props.loadingreportfile;
 			}
@@ -140,12 +126,6 @@ export class Pivot extends React.Component {
 			}
 			if (this.props.localizationloaded !== undefined) {
 				config.localizationloaded = this.props.localizationloaded;
-			}
-			if (this.props.olapstructureerror !== undefined) {
-				config.olapstructureerror = this.props.olapstructureerror;
-			}
-			if (this.props.olapstructureloaded !== undefined) {
-				config.olapstructureloaded = this.props.olapstructureloaded;
 			}
 			if (this.props.openingreportfile !== undefined) {
 				config.openingreportfile = this.props.openingreportfile;
