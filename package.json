@@ -5,7 +5,8 @@
   "dependencies": {
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
-    "react-scripts": "^1.1.5"
+    "react-scripts": "^1.1.5",
+    "webdatarocks": "latest"
   },
   "scripts": {
     "start": "react-scripts start",

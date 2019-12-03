@@ -1,5 +1,7 @@
 import * as React from "react";
 import ReactDOM from "react-dom";
+import * as WebDataRocks from "webdatarocks";
+import "webdatarocks/webdatarocks.min.css";
 
 export class Pivot extends React.Component {
 
@@ -51,7 +53,7 @@ export class Pivot extends React.Component {
 			var config = {};
 			config.container = ReactDOM.findDOMNode(this);
 			this.parseProps(config);
-			this.webdatarocks = new window.WebDataRocks(config);
+			this.webdatarocks = new WebDataRocks(config);
 		}
 		
 		shouldComponentUpdate() {
