@@ -10,6 +10,7 @@
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-scripts": "3.2.0",
+    "react-webdatarocks": "^1.3.3",
     "typescript": "3.7.2"
   },
   "scripts": {
@@ -34,6 +35,6 @@
     ]
   },
   "devDependencies": {
-    "webdatarocks": "^1.2.0"
+    "webdatarocks": "^1.3.3"
   }
 }

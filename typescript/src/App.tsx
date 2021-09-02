@@ -1,5 +1,5 @@
 import React from 'react';
-import * as WebDataRocks from "./webdatarocks/webdatarocks.react";
+import * as WebDataRocks from "react-webdatarocks";
 import "webdatarocks/webdatarocks.css";
 import './App.css';
 
