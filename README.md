@@ -34,4 +34,4 @@ Your application will run at `http://localhost:3000/`.
 
 <h2 id="learn-more">Learn more about integration with React</h2>
 
-For detailed instructions on the integration, please refer to this tutorial: [WebDataRocks integration with React](https://www.webdatarocks.com/doc/integration-with-react/).
+For detailed instructions on the integration, please refer to this tutorial: [Integration with React](https://www.webdatarocks.com/doc/integration-with-react/).
