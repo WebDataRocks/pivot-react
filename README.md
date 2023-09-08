@@ -1,37 +1,43 @@
-# WebDataRocks integration with React framework 
+# Example of integrating WebDataRocks with the React framework
 
-This repository holds a sample integration project of WebDataRocks reporting tool with the React framework.
+This repository contains sample ES6 and TypeScript projects that show how to integrate [WebDataRocks](https://www.webdatarocks.com/) with the [React framework](https://react.dev/).
 
-- [Get WebDataRocks](#get-webdatarocks)
-- [Run this project](#run-project)
-- [Learn more about integration with React](#learn-more)
+## Prerequisites
 
-<h2 id="get-webdatarocks">Get WebDataRocks</h2>
+For React + ES6 project:
+- [Node.js 6 or later](https://nodejs.org/en/)
 
-WebDataRocks is a free reporting tool. [Get it here](https://www.webdatarocks.com/get-webdatarocks/).
+For React + TypeScript project:
+- [Node.js 8 through 16](https://nodejs.org/en/)
 
-<h2 id="run-project">Run this project</h2>
 
-1. Download or clone this sample project from GitHub:
-    - Get React + ES6 project:
+## Run the project
 
+1. Download or clone this project from GitHub:
+    - React + ES6 project:
     ```
-    git clone https://github.com/WebDataRocks/pivot-react && cd pivot-react/ES6
+    git clone https://github.com/WebDataRocks/pivot-react
+    cd pivot-react/ES6
     ```
-    - Get React + TypeScript project: 
+    - React + TypeScript project: 
     ```
-    git clone https://github.com/WebDataRocks/pivot-react && cd pivot-react/typescript
+    git clone https://github.com/WebDataRocks/pivot-react
+    cd pivot-react/typescript
     ```
-3. Install npm packages by running in the console:
+2. Install npm packages:
 ```
 npm install
 ```
-3. Run your application:
+3. Run the project:
 ```
 npm start
 ```
-Your application will run at `http://localhost:3000/`.
+You can access the project at `http://localhost:3000/`.
 
-<h2 id="learn-more">Learn more about integration with React</h2>
+## Related docs
 
-For detailed instructions on the integration, please refer to this tutorial: [Integration with React](https://www.webdatarocks.com/doc/integration-with-react/).
+For details on how to integrate WebDataRocks into existing React projects, check out the [integration with React](https://www.webdatarocks.com/doc/integration-with-react/).
+
+## Support
+
+Feel free to ask WebDataRocks-related questions on [StackOverflow](https://stackoverflow.com/questions/tagged/webdatarocks).
