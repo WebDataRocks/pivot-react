@@ -9,16 +9,16 @@ This repository contains a sample ES6 project that shows how to integrate [WebDa
 ## Run the project
 
 1. Download or clone this project from GitHub:
-```
+```bash
 git clone https://github.com/WebDataRocks/pivot-react
 cd pivot-react/ES6
 ```
 2. Install npm packages:
-```
+```bash
 npm install
 ```
 3. Run the project:
-```
+```bash
 npm start
 ```
 You can access the project at `http://localhost:3000/`.
