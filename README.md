@@ -15,21 +15,21 @@ For React + TypeScript project:
 
 1. Download or clone this project from GitHub:
     - React + ES6 project:
-    ```
+    ```bash
     git clone https://github.com/WebDataRocks/pivot-react
     cd pivot-react/ES6
     ```
     - React + TypeScript project: 
-    ```
+    ```bash
     git clone https://github.com/WebDataRocks/pivot-react
     cd pivot-react/typescript
     ```
 2. Install npm packages:
-```
+```bash
 npm install
 ```
 3. Run the project:
-```
+```bash
 npm start
 ```
 You can access the project at `http://localhost:3000/`.
