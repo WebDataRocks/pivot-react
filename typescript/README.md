@@ -9,16 +9,16 @@ This repository contains a sample TypeScript project that shows how to integrate
 ## Run the project
 
 1. Download or clone this project from GitHub:
-```
+```bash
 git clone https://github.com/WebDataRocks/pivot-react
 cd pivot-react/typescript
 ```
 2. Install npm packages:
-```
+```bash
 npm install
 ```
 3. Run the project:
-```
+```bash
 npm start
 ```
 You can access the project at `http://localhost:3000/`.
