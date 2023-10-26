@@ -1,6 +1,6 @@
 import React from 'react';
 
-import * as WebDataRocksReact from 'react-webdatarocks';
+import * as WebDataRocksReact from '@webdatarocks/react-webdatarocks';
 //import "webdatarocks/webdatarocks.highcharts";
 
 export class App extends React.Component {

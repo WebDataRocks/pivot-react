@@ -5,13 +5,13 @@
   "dependencies": {
     "@types/jest": "24.0.23",
     "@types/node": "12.12.14",
-    "@types/react": "16.9.14",
-    "@types/react-dom": "16.9.4",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
-    "react-scripts": "3.2.0",
-    "react-webdatarocks": "^1.3.3",
-    "typescript": "3.7.2"
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "@webdatarocks/react-webdatarocks": "^1.4.11",
+    "typescript": "4.8.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -33,8 +33,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "webdatarocks": "^1.3.3"
   }
 }

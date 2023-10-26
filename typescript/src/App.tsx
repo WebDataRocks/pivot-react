@@ -1,6 +1,6 @@
 import React from 'react';
-import * as WebDataRocks from "react-webdatarocks";
-import "webdatarocks/webdatarocks.css";
+import * as WebDataRocks from "@webdatarocks/react-webdatarocks";
+import "@webdatarocks/webdatarocks/webdatarocks.min.css";
 import './App.css';
 
 const App: React.FC = () => {

@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import 'webdatarocks/webdatarocks.css'
+import '@webdatarocks/webdatarocks/webdatarocks.min.css'
 
 
 
