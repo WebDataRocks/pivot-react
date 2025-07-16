@@ -1,10 +1,10 @@
-# WebDataRocks integration with React + TypeScript
+# Example of integrating WebDataRocks integration with React + TypeScript
 
 This repository contains a sample TypeScript project that shows how to integrate [WebDataRocks](https://www.webdatarocks.com/) with the [React framework](https://react.dev/).
 
 ## Prerequisites
 
-- [Node.js 8 through 16](https://nodejs.org/en/)
+- [Node.js 8 or later](https://nodejs.org/en/)
 
 ## Run the project
 
