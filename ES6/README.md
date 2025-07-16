@@ -1,4 +1,4 @@
-# WebDataRocks integration with React + ES6
+# Example of integrating WebDataRocks integration with React + ES6
 
 This repository contains a sample ES6 project that shows how to integrate [WebDataRocks](https://www.webdatarocks.com/) with the [React framework](https://react.dev/).
 
