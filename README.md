@@ -8,7 +8,7 @@ For React + ES6 project:
 - [Node.js 6 or later](https://nodejs.org/en/)
 
 For React + TypeScript project:
-- [Node.js 8 through 16](https://nodejs.org/en/)
+- [Node.js 8 or later](https://nodejs.org/en/)
 
 
 ## Run the project
