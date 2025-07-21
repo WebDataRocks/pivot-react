@@ -28,4 +28,5 @@ You can access the project at `http://localhost:3000/`.
 For details on how to integrate WebDataRocks into existing React projects, check out the [integration with React](https://www.webdatarocks.com/doc/react/how-to-start-online-reporting/).
 
 ## Support
-Feel free to ask WebDataRocks-related questions on [StackOverflow](https://stackoverflow.com/questions/tagged/webdatarocks).
+
+For WebDataRocks-related questions, bug reports and features requests, please [create an issue on our GitHub](https://github.com/WebDataRocks/web-pivot-table/issues).
