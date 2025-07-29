@@ -8,13 +8,13 @@ export default function TopMenu() {
                 </a>
                 <ul className="mainnav">
                     <li>
-                        <a href="https://www.webdatarocks.com/demos/pivot-table-demo/" target="blank" rel="noopener noreferrer">Demos</a>
+                        <a href="https://www.webdatarocks.com/demos/react/pivot-table-demo/" target="blank" rel="noopener noreferrer">Demos</a>
                     </li>
                     <li>
                         <a href="https://www.webdatarocks.com/doc/integration-with-react/" target="blank" rel="noopener noreferrer">Integration with React</a>
                     </li>
                     <li>
-                        <a href="https://www.webdatarocks.com/doc/" target="blank" rel="noopener noreferrer">Docs</a>
+                        <a href="https://www.webdatarocks.com/doc/react/" target="blank" rel="noopener noreferrer">Docs</a>
                     </li>
                     <li>
                         <a href="https://www.webdatarocks.com/about-us/" target="blank" rel="noopener noreferrer">About us</a>

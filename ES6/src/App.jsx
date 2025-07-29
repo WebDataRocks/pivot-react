@@ -9,14 +9,11 @@ class App extends Component {
       <div id="container">
         <TopMenu />
         <div id="pivot">
-        <WebDataRocksReact.Pivot
-          ref={(elem) => {
-            this.myRef = elem
-          }}
-          toolbar={true}
-          height="600"
-          report="https://cdn.webdatarocks.com/reports/report.json"
-        />
+          <WebDataRocksReact.Pivot
+            toolbar={true}
+            height="600"
+            report="https://cdn.webdatarocks.com/reports/report.json"
+          />
         </div>
       </div>
     );
