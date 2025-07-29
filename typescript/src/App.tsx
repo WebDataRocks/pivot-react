@@ -1,24 +1,23 @@
-import React from 'react';
-import * as WebDataRocks from "@webdatarocks/react-webdatarocks";
-import "@webdatarocks/webdatarocks/webdatarocks.min.css";
+import { Component } from 'react';
 import './App.css';
+import TopMenu from './components/TopMenu.tsx';
+import * as WebDataRocksReact from '@webdatarocks/react-webdatarocks';
 
-const App: React.FC = () => {
-
-  const ref: React.RefObject<WebDataRocks.Pivot> = React.useRef<WebDataRocks.Pivot>(null);   
-
-  const onReportComplete = () => {
-    if (ref.current) {
-      ref.current.webdatarocks.off("reportcomplete");
-      console.log(ref.current.webdatarocks);
-    }
+class App extends Component {
+  render() {
+    return (
+      <div id="container">
+        <TopMenu />
+        <div id="pivot">
+        <WebDataRocksReact.Pivot
+          toolbar={true}
+          height="600"
+          report="https://cdn.webdatarocks.com/reports/report.json"
+        />
+        </div>
+      </div>
+    );
   }
-  
-  return (
-    <div className="App">
-      <WebDataRocks.Pivot ref={ref} toolbar={true} width="100%" reportcomplete={() => onReportComplete()} report="https://cdn.webdatarocks.com/reports/report.json"></WebDataRocks.Pivot>
-    </div>
-  );
 }
 
 export default App;
