@@ -1,6 +1,6 @@
-import { Component } from 'react';
+import React, { Component } from 'react';
 import './App.css';
-import TopMenu from './components/TopMenu.tsx';
+import TopMenu from './components/TopMenu'
 import * as WebDataRocksReact from '@webdatarocks/react-webdatarocks';
 
 class App extends Component {
@@ -9,11 +9,11 @@ class App extends Component {
       <div id="container">
         <TopMenu />
         <div id="pivot">
-        <WebDataRocksReact.Pivot
-          toolbar={true}
-          height="600"
-          report="https://cdn.webdatarocks.com/reports/report.json"
-        />
+          <WebDataRocksReact.Pivot
+            toolbar={true}
+            height="600"
+            report="https://cdn.webdatarocks.com/reports/report.json"
+          />
         </div>
       </div>
     );
