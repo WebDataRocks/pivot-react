@@ -1,16 +1,16 @@
 {
-  "name": "es6",
+  "name": "wdr-pivot-react-es6",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "description": "Example of integrating the WebDataRocks Pivot Table component with the React framework and ES6",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --open",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@webdatarocks/react-webdatarocks": "^1.4.10",
+    "@webdatarocks/react-webdatarocks": "latest",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },

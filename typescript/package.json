@@ -1,10 +1,10 @@
 {
-  "name": "typescript",
+  "name": "wdr-pivot-react-ts",
   "private": true,
+  "description": "Example of integrating the WebDataRocks Pivot Table component with the React framework and TypeScript",
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --open",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -12,7 +12,7 @@
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "@webdatarocks/react-webdatarocks": "^1.4.10"
+    "@webdatarocks/react-webdatarocks": "latest"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",

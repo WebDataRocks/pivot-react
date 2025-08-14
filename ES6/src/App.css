@@ -1,3 +1,5 @@
+@import "@webdatarocks/webdatarocks/webdatarocks.min.css";
+
 #container {
   padding: 80px 0 0;
   color: #555;
@@ -7,12 +9,10 @@
 
 #pivot {
   margin: 0 80px;
-  padding: 10px 15px 22px;
-  background: #fff;
   position: relative;
   display: flex;
-  border: 1px solid rgb(221, 221, 221);
-  border-radius: 6px;
+  border: 2px solid rgb(233, 241, 243);
+  border-radius: 2px;
 }
 
 @media screen and (max-width: 1050px) {
