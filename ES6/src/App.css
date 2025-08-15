@@ -53,6 +53,10 @@
   border-radius: 1rem;
 }
 
+#pivot #wdr-popUp-modal-overlay {
+  border-radius: 1rem;
+}
+
 /* Top menu */
 .mainheader {
   position: absolute;
