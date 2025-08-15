@@ -49,11 +49,7 @@
   border-top-right-radius: 0px;
 }
 
-#pivot #wdr-grid-view {
-  border-radius: 1rem;
-}
-
-#pivot #wdr-popUp-modal-overlay {
+#pivot #wdr-grid-view, #pivot #wdr-popUp-modal-overlay {
   border-radius: 1rem;
 }
 
