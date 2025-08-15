@@ -3,7 +3,7 @@ export default function TopMenu() {
     <header className="mainheader fixed-head">
       <div className="container-xl">
         <a
-          href="https://www.webdatarocks.com/?r=gh_sample_react"
+          href="https://www.webdatarocks.com/?r=gh_sample_react_ts"
           target="blank"
           rel="noopener noreferrer"
           className="logo"
@@ -16,7 +16,7 @@ export default function TopMenu() {
         <ul className="mainnav">
           <li>
             <a
-              href="https://www.webdatarocks.com/demos/react/pivot-table-demo/?r=gh_sample_react"
+              href="https://www.webdatarocks.com/demos/react/pivot-table-demo/?r=gh_sample_react_ts"
               target="blank"
               rel="noopener noreferrer"
             >
@@ -25,7 +25,7 @@ export default function TopMenu() {
           </li>
           <li>
             <a
-              href="https://www.webdatarocks.com/doc/integration-with-react/?r=gh_sample_react"
+              href="https://www.webdatarocks.com/doc/integration-with-react/?r=gh_sample_react_ts"
               target="blank"
               rel="noopener noreferrer"
             >
@@ -34,7 +34,7 @@ export default function TopMenu() {
           </li>
           <li>
             <a
-              href="https://www.webdatarocks.com/doc/react/?r=gh_sample_react"
+              href="https://www.webdatarocks.com/doc/react/?r=gh_sample_react_ts"
               target="blank"
               rel="noopener noreferrer"
             >
@@ -43,7 +43,7 @@ export default function TopMenu() {
           </li>
           <li>
             <a
-              href="https://www.webdatarocks.com/about-us/?r=gh_sample_react"
+              href="https://www.webdatarocks.com/about-us/?r=gh_sample_react_ts"
               target="blank"
               rel="noopener noreferrer"
             >

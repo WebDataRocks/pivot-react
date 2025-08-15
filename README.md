@@ -1,14 +1,16 @@
 # Example of integrating WebDataRocks with the React framework
 
-This repository contains sample ES6 and TypeScript projects that show how to integrate [WebDataRocks](https://www.webdatarocks.com/) with the [React framework](https://react.dev/).
+[![WebDataRocks](https://cdn.webdatarocks.com/readmes/react.png)](https://www.webdatarocks.com?r=rm_react)
+
+This repository contains sample ES6 and TypeScript projects that show how to integrate [WebDataRocks](https://www.webdatarocks.com?r=rm_react) with the [React framework](https://react.dev/).
 
 ## Prerequisites
 
 For React + ES6 project:
-- [Node.js 6 or later](https://nodejs.org/en/)
+- [Node.js 20 or later](https://nodejs.org/en/)
 
 For React + TypeScript project:
-- [Node.js 8 or later](https://nodejs.org/en/)
+- [Node.js 20 or later](https://nodejs.org/en/)
 
 
 ## Run the project
@@ -36,7 +38,7 @@ You can access the project at `http://localhost:3000/`.
 
 ## Related docs
 
-For details on how to integrate WebDataRocks into existing React projects, check out the [integration with React](https://www.webdatarocks.com/doc/react/how-to-start-online-reporting/).
+For details on how to integrate WebDataRocks into existing React projects, check out the [integration with React](https://www.webdatarocks.com/doc/react/how-to-start-online-reporting/?r=rm_react).
 
 ## Support
 
