@@ -6,10 +6,6 @@ This repository contains sample ES6 and TypeScript projects that show how to int
 
 ## Prerequisites
 
-For React + ES6 project:
-- [Node.js 20 or later](https://nodejs.org/en/)
-
-For React + TypeScript project:
 - [Node.js 20 or later](https://nodejs.org/en/)
 
 

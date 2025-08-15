@@ -4,7 +4,7 @@
   "description": "Example of integrating the WebDataRocks Pivot Table component with the React framework and TypeScript",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite --open",
+    "start": "vite --open",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
