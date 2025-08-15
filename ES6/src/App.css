@@ -1,7 +1,7 @@
 @import "@webdatarocks/webdatarocks/webdatarocks.min.css";
 
 #container {
-  padding: 80px 0 0;
+  padding: 100px 0 0;
   color: #555;
   margin: 14px 0;
   text-rendering: optimizeLegibility !important;
@@ -12,13 +12,45 @@
   position: relative;
   display: flex;
   border: 2px solid rgb(233, 241, 243);
-  border-radius: 2px;
+  border-radius: 1.125rem;
 }
 
 @media screen and (max-width: 1050px) {
   #container {
     padding-top: 140px;
   }
+}
+
+#pivot #wdr-toolbar-wrapper #wdr-toolbar {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+#pivot #wdr-toolbar-wrapper #wdr-toolbar .wdr-toolbar-group-right {
+  right: 0.5rem;
+}
+
+#pivot #wdr-toolbar-wrapper~#wdr-pivot-view {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+#pivot #wdr-pivot-view {
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-radius: 1rem;
+}
+
+#pivot #wdr-toolbar-wrapper~#wdr-pivot-view #wdr-grid-view {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+#pivot #wdr-grid-view {
+  border-radius: 1rem;
 }
 
 /* Top menu */
