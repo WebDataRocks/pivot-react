@@ -25,7 +25,7 @@ export default function TopMenu() {
           </li>
           <li>
             <a
-              href="https://www.webdatarocks.com/doc/integration-with-react/?r=gh_sample_react_ts"
+              href="https://www.webdatarocks.com/doc/react/how-to-start-online-reporting/?r=gh_sample_react_ts"
               target="blank"
               rel="noopener noreferrer"
             >
