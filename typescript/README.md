@@ -31,4 +31,4 @@ For details on how to integrate WebDataRocks into existing React projects, check
 
 ## Support
 
-For WebDataRocks-related questions, bug reports and features requests, please [create an issue on our GitHub](https://github.com/WebDataRocks/web-pivot-table/issues).
+For WebDataRocks-related questions, bug reports, and feature requests, please [create an issue on our GitHub](https://github.com/WebDataRocks/web-pivot-table/issues).
