@@ -1,5 +1,5 @@
 import "./App.css";
-import TopMenu from "./components/TopMenu.tsx";
+import TopMenu from "./components/TopMenu";
 import * as WebDataRocksReact from "@webdatarocks/react-webdatarocks";
 
 function App() {
