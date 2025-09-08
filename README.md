@@ -36,6 +36,12 @@ You can access the project at `http://localhost:3000/`.
 
 For details on how to integrate WebDataRocks into existing React projects, check out the [integration with React](https://www.webdatarocks.com/doc/react/how-to-start-online-reporting/?r=rm_react).
 
+## WebDataRocks licensing
+
+These WebDataRocks sample projects are released under the MIT license (free and open-source).
+
+[WebDataRocks](https://www.webdatarocks.com/?r=rm_react) is distributed under the terms and conditions of the WebDataRocks End User License Agreement: [https://www.webdatarocks.com/license-agreement/](https://www.webdatarocks.com/license-agreement/?r=rm_react).
+
 ## Support
 
 For WebDataRocks-related questions, bug reports, and feature requests, please [create an issue on our GitHub](https://github.com/WebDataRocks/web-pivot-table/issues).
