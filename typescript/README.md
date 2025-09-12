@@ -1,6 +1,9 @@
 # Example of integrating WebDataRocks integration with React + TypeScript
 
 [![WebDataRocks](https://cdn.webdatarocks.com/readmes/react.png)](https://www.webdatarocks.com/?r=rm_react_ts)
+Website: [webdatarocks.com](https://www.webdatarocks.com?r=rm_react_ts)
+
+[![Github Stars](https://img.shields.io/github/stars/webdatarocks?style=social)](https://github.com/webdatarocks) [![Twitter](https://img.shields.io/twitter/follow/WebDataRocks?style=social)](https://twitter.com/WebDataRocks)
 
 This repository contains a sample TypeScript project that shows how to integrate [WebDataRocks](https://www.webdatarocks.com/?r=rm_react_ts) with the [React framework](https://react.dev/).
 
